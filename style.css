@@ -1,3 +1,10 @@
+
 .homeheader{
     background-color: #002200;
+    h1{
+        color: #d0f0c0;
+    }
+    img{
+        width: 10%;
+    }
 }
