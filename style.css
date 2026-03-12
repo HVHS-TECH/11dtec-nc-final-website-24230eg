@@ -1,4 +1,6 @@
-
+body{
+    margin:0%;
+}
 .homeheader{
     background-color: #002200;
     h1{
