@@ -2,6 +2,7 @@ body{
     margin:0%;
 }
 .homeheader{
+    display: grid;
     grid-template-areas:
     'homeheaderlogo homeheadertext homeheaderspace';
     background-color: #002200;
@@ -11,8 +12,13 @@ body{
             width: 10%;
         }
     }
-    h1{
+    .homeheadertext{
         grid-area: homeheadertext;
-        color: #d0f0c0;
+        h1{
+            color: #d0f0c0;
+        }
+    }
+    .homeheaderspace{
+        grid-area: homeheaderspace;
     }
 }
