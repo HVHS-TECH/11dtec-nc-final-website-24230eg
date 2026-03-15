@@ -7,15 +7,19 @@ body{
     'homeheaderlogo homeheadertext homeheaderspace';
     background-color: #002200;
     .homeheaderlogo{
-        width: 10vw;
         grid-area: homeheaderlogo;
+        width: 10vw;
         img{
+            height: 8vw;
         }
     }
     .homeheadertext{
         grid-area: homeheadertext;
+        width: 80vw;
+        text-align: center;
         h1{
             color: #d0f0c0;
+            height: 8vw;
         }
     }
     .homeheaderspace{
