@@ -9,8 +9,9 @@ body{
     .homeheaderlogo{
         grid-area: homeheaderlogo;
         width: 10vw;
+        align-content: ;
         img{
-            height: 8vw;
+            height: 5vw;
         }
     }
     .homeheadertext{
@@ -19,7 +20,9 @@ body{
         text-align: center;
         h1{
             color: #d0f0c0;
-            height: 8vw;
+            font-size: 5vw;
+            margin: 0px;
+            margin-bottom: 5px;
         }
     }
     .homeheaderspace{
