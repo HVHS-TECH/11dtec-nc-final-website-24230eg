@@ -9,7 +9,8 @@ body{
     .homeheaderlogo{
         grid-area: homeheaderlogo;
         width: 10vw;
-        align-content: ;
+        align-content: center;
+        justify-content: left;
         img{
             height: 5vw;
         }
