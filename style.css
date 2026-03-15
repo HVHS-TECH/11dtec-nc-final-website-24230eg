@@ -10,7 +10,6 @@ body{
         width: 10vw;
         grid-area: homeheaderlogo;
         img{
-            width: 9vw;
         }
     }
     .homeheadertext{
