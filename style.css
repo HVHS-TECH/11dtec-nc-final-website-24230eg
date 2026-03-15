@@ -7,9 +7,10 @@ body{
     'homeheaderlogo homeheadertext homeheaderspace';
     background-color: #002200;
     .homeheaderlogo{
+        width: 10vw;
         grid-area: homeheaderlogo;
         img{
-            width: 10%;
+            width: 9vw;
         }
     }
     .homeheadertext{
@@ -20,5 +21,6 @@ body{
     }
     .homeheaderspace{
         grid-area: homeheaderspace;
+        width: 10vw;
     }
 }
