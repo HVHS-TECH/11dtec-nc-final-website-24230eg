@@ -2,11 +2,17 @@ body{
     margin:0%;
 }
 .homeheader{
+    grid-template-areas:
+    'homeheaderlogo homeheadertext homeheaderspace';
     background-color: #002200;
-    h1{
-        color: #d0f0c0;
+    .homeheaderlogo{
+        grid-area: homeheaderlogo;
+        img{
+            width: 10%;
+        }
     }
-    img{
-        width: 10%;
+    h1{
+        grid-area: homeheadertext;
+        color: #d0f0c0;
     }
 }
