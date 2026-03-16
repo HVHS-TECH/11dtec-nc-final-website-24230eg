@@ -1,13 +1,13 @@
 body{
     margin:0%;
 }
-.homeheader{
+header{
     display: grid;
     grid-template-areas:
-    'homeheaderlogo homeheadertext homeheaderspace';
+    'headerlogo headertext headerspace';
     background-color: #002200;
-    .homeheaderlogo{
-        grid-area: homeheaderlogo;
+    .headerlogo{
+        grid-area: headerlogo;
         width: 10vw;
         align-content: center;
         justify-content: left;
@@ -15,8 +15,8 @@ body{
             height: 5vw;
         }
     }
-    .homeheadertext{
-        grid-area: homeheadertext;
+    .headertext{
+        grid-area: headertext;
         width: 80vw;
         text-align: center;
         h1{
@@ -26,8 +26,37 @@ body{
             margin-bottom: 5px;
         }
     }
-    .homeheaderspace{
-        grid-area: homeheaderspace;
+    .headerspace{
+        grid-area: headerspace;
         width: 10vw;
+    }
+}
+nav{
+    margin:0%;
+    padding: 0%;
+    height: 5vh;
+    ul{
+        margin: 0%;
+        padding: 0%;
+        height: 5vh;
+        list-style-type: none;
+        display: flex;
+        justify-content: space-evenly;
+        background-color: #002200;
+        a{
+            text-align: center;
+            display: block;
+            text-decoration: none;
+            color: #e9ffdb;
+            width: 25vw;
+            height: 5vh;
+            font-size: 4vh;
+        }
+        a:hover:not(.currentpage){
+            background-color: #001000;
+        }
+        .currentpage{
+            background-color: #004500;
+        }
     }
 }
