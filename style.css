@@ -6,7 +6,8 @@ header{
     top: 0;
     display: grid;
     grid-template-areas:
-    'headerlogo headertext headerspace';
+    'headerlogo headertext headerspace'
+    'headernav headernav headernav';
     background-color: #002200;
     .headerlogo{
         grid-area: headerlogo;
@@ -25,43 +26,44 @@ header{
             color: #d0f0c0;
             font-size: 5vw;
             margin: 0px;
-            margin-bottom: 5px;
         }
     }
     .headerspace{
         grid-area: headerspace;
         width: 10vw;
     }
-}
-nav{
-    margin:0%;
-    padding: 0%;
-    height: 5vh;
-    ul{
-        margin: 0%;
+        nav{
+        grid-area: headernav;
+        margin:0%;
         padding: 0%;
         height: 5vh;
-        list-style-type: none;
-        display: flex;
-        justify-content: space-evenly;
-        background-color: #002200;
-        a{
-            text-align: center;
-            display: block;
-            text-decoration: none;
-            color: #e9ffdb;
-            width: 25vw;
+        ul{
+            margin: 0%;
+            padding: 0%;
             height: 5vh;
-            font-size: 4vh;
-        }
-        a:hover:not(.currentpage){
-            background-color: #001000;
-        }
-        .currentpage{
-            background-color: #004500;
+            list-style-type: none;
+            display: flex;
+            justify-content: space-evenly;
+            background-color: #002200;
+            a{
+                text-align: center;
+                display: block;
+                text-decoration: none;
+                color: #e9ffdb;
+                width: 25vw;
+                height: 5vh;
+                font-size: 4vh;
+            }
+            a:hover:not(.currentpage){
+                background-color: #001000;
+            }
+            .currentpage{
+                background-color: #004500;
+            }
         }
     }
 }
+
 main{
     margin:0%;
     min-height: 100vh;
