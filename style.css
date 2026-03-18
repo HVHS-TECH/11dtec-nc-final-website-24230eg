@@ -1,7 +1,10 @@
 body{
     margin:0%;
+    padding: 0%;
 }
 header{
+    margin: 0%;
+    padding: 0%;
     position: sticky;
     top: 0;
     display: grid;
@@ -32,7 +35,7 @@ header{
         grid-area: headerspace;
         width: 10vw;
     }
-        nav{
+    nav{
         grid-area: headernav;
         margin:0%;
         padding: 0%;
@@ -46,6 +49,8 @@ header{
             justify-content: space-evenly;
             background-color: #002200;
             a{
+                margin: 0%;
+                padding: 0%;
                 text-align: center;
                 display: block;
                 text-decoration: none;
@@ -65,12 +70,14 @@ header{
 }
 
 main{
-    margin:0%;
+    margin: 0%;
+    padding: 0%;
     min-height: 100vh;
     background-color: #e9ffdb;
 }
 footer{
-    margin:0%;
+    margin: 0%;
+    padding: 0%;
     height: 5vh;
     background-color: #002200;
 }
