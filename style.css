@@ -10,7 +10,7 @@ header{
     top: 0;
     display: grid;
     grid-template-areas:
-    'headerlogo headertext headerspace'
+    'headerlogo headertitle headerspace'
     'headernav headernav headernav';
     background-color: #002200;
     .headerlogo{
@@ -23,10 +23,11 @@ header{
         }
     }
     .headertext{
-        grid-area: headertext;
+        grid-area: headertitle;
         width: 80vw;
         height: 20vh;
-        justify-content: center;
+        align-content: center;
+        justify-content: ;
         img{
             height: 18vh;
         }
