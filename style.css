@@ -19,7 +19,8 @@ header{
         align-content: center;
         justify-content: left;
         img{
-            height: 20vh;
+            max-width: 10vw;
+            max-height: 20vh;
         }
     }
     .headertext{
@@ -31,7 +32,7 @@ header{
         align-content: center;
         img{
             max-width: 80vw;
-            height: 18vh;
+            max-height: 18vh;
         }
     }
     .headerspace{
