@@ -19,17 +19,16 @@ header{
         align-content: center;
         justify-content: left;
         img{
-            height: 5vw;
+            height: 20vh;
         }
     }
     .headertext{
         grid-area: headertext;
         width: 80vw;
-        text-align: center;
-        h1{
-            color: #d0f0c0;
-            font-size: 5vw;
-            margin: 0px;
+        height: 20vh;
+        justify-content: center;
+        img{
+            height: 18vh;
         }
     }
     .headerspace{
