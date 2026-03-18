@@ -81,4 +81,9 @@ footer{
     padding: 0%;
     height: 5vh;
     background-color: #002200;
+    p{
+        margin: 0%;
+        padding: 0%;
+        color: #e9ffdb;
+    }
 }
