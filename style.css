@@ -88,7 +88,7 @@ main{
     justify-content: center;
     #mainthing{
         width: 80vw;
-        min-height: vh;
+        min-height: 70vh;
         background-color: #d0f0c0;
     }
 }
