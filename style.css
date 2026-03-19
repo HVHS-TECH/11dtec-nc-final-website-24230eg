@@ -86,8 +86,8 @@ main{
     background-color: #e9ffdb;
     display: flex;
     justify-content: center;
-    #mainthing{
-        width: 80vw;
+    .mainthing{
+        width: 50vw;
         min-height: 70vh;
         background-color: #d0f0c0;
     }
