@@ -88,6 +88,9 @@ footer{
         margin: 0%;
         padding: 0%;
         color: #e9ffdb;
-        font: ;
+        font-family: "Merriweather Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 450;
+        font-style: normal;
     }
 }
