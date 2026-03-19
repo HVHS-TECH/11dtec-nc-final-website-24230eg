@@ -87,7 +87,7 @@ main{
     display: flex;
     justify-content: center;
     .mainthing{
-        width: 50vw;
+        width: 60vw;
         min-height: 70vh;
         background-color: #d0f0c0;
     }
