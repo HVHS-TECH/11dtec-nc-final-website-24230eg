@@ -62,6 +62,10 @@ header{
                 width: 25vw;
                 height: 5vh;
                 font-size: 4vh;
+                font-family: "Merriweather Sans", sans-serif;
+                font-optical-sizing: auto;
+                font-weight: 450;
+                font-style: normal;
             }
             a:hover:not(.currentpage){
                 background-color: #001000;
