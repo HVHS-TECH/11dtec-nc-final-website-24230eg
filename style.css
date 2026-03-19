@@ -89,7 +89,7 @@ main{
     justify-content: center;
     #mainthing{
         width: 80vw;
-        
+        background-color: #d0f0c0;
     }
 }
 footer{
@@ -100,7 +100,7 @@ footer{
     p{
         margin: 0%;
         padding: 0%;
-        color: #e9ffdb;
+        color: #d0f0c0
         font-family: "Merriweather Sans", sans-serif;
         font-optical-sizing: auto;
         font-weight: 450;
