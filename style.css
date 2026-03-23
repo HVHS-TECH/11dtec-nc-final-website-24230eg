@@ -36,6 +36,9 @@ header{
         img{
             max-width: 80vw;
             max-height: 18vh;
+            alt{
+                
+            }
         }
     }
     .headerspace{
