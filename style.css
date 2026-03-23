@@ -36,10 +36,11 @@ header{
         img{
             max-width: 80vw;
             max-height: 18vh;
-            alt{
-                color: #d0f0c0;
-                font-size: 5vw;
-            }
+            color: #d0f0c0;
+            font-size: 6vh;
+            font-family: "Merriweather Sans", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 450;
         }
     }
     .headerspace{
