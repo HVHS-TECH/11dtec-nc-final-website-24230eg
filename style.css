@@ -90,10 +90,15 @@ main{
     background-color: #e9ffdb;
     display: flex;
     justify-content: center;
-    .mainthing{
+    .mainhome{
         width: 60vw;
         min-height: 70vh;
         background-color: #d0f0c0;
+        display: grid;
+        grid-template-areas:
+        'mainhome mainhome'
+        'mainhome mainhome'
+        'mainhome mainhome';
     }
 }
 footer{
