@@ -96,9 +96,12 @@ main{
         background-color: #d0f0c0;
         display: grid;
         grid-template-areas:
-        'mainhome mainhome'
+        'mainhomeheader mainhomeheader'
         'mainhome mainhome'
         'mainhome mainhome';
+        .mainhomeheader{
+            grid-area: mainhomeheader;
+        }
     }
 }
 footer{
