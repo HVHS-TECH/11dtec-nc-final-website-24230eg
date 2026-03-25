@@ -97,8 +97,8 @@ main{
         display: grid;
         grid-template-areas:
         'mainhomeheader mainhomeheader'
-        'mainhome mainhome'
-        'mainhome mainhome';
+        'mainhomeaboutminecraft mainhomeimmage1'
+        'mainhome mainhomeimmage2';
         h2{
             margin: 0%;
             padding: 0%;
@@ -125,6 +125,31 @@ main{
                 padding: 0%;
                 margin-left: 0.5vw;
                 margin-top: 1vw;
+                color: #000000;
+                font-family: "Merriweather Sans", sans-serif;
+                font-optical-sizing: auto;
+                font-weight: 450;
+                font-style: normal;
+            }
+        }
+        .mainhomeaboutminecraft{
+            grid-area: mainhomeaboutminecraft;
+            h2{
+                font-size: 2vw;
+                margin: 0%;
+                padding: 0%;
+                margin-left: 0.5vw;
+                color: #000000;
+                font-family: "Merriweather Sans", sans-serif;
+                font-optical-sizing: auto;
+                font-weight: 450;
+                font-style: normal;
+            }
+            p{
+                font-size: 1vw;
+                margin: 0%;
+                padding: 0%;
+                margin-left: 0.5vw;
                 color: #000000;
                 font-family: "Merriweather Sans", sans-serif;
                 font-optical-sizing: auto;
