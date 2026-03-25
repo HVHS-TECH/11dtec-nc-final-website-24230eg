@@ -116,6 +116,7 @@ main{
         }
         .mainhomeaboutminecraft{
             grid-area: mainhomeaboutminecraft;
+            max-width: 30vw;
             h2{
                 font-size: 1.5vw;
                 margin: 0%;
@@ -148,6 +149,7 @@ main{
         }
         .mainhomeaboutwebsite{
             grid-area: mainhomeaboutwebsite;
+            max-width: 30vw;
             h2{
                 font-size: 1.5vw;
                 margin: 0%;
@@ -173,6 +175,10 @@ main{
         }
         .mainhomeimmage2{
             grid-area: mainhomeimmage2;
+            img{
+                max-width: 28vw;
+                margin: 2%;
+            }
         }
     }
 }
