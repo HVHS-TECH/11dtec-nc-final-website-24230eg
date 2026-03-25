@@ -141,6 +141,10 @@ main{
         }
         .mainhomeimmage1{
             grid-area: mainhomeimmage1;
+            img{
+                max-width: 28vw;
+                margin: 2%;
+            }
         }
         .mainhomeaboutwebsite{
             grid-area: mainhomeaboutwebsite;
