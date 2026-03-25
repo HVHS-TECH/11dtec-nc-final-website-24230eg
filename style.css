@@ -99,24 +99,6 @@ main{
         'mainhomeheader mainhomeheader'
         'mainhomeaboutminecraft mainhomeimmage1'
         'mainhome mainhomeimmage2';
-        h2{
-            margin: 0%;
-            padding: 0%;
-            color: #000000;
-            font-family: "Merriweather Sans", sans-serif;
-            font-optical-sizing: auto;
-            font-weight: 450;
-            font-style: normal;
-        }
-        p{
-            margin: 0%;
-            padding: 0%;
-            color: #000000;
-            font-family: "Merriweather Sans", sans-serif;
-            font-optical-sizing: auto;
-            font-weight: 450;
-            font-style: normal;
-        }
         .mainhomeheader{
             grid-area: mainhomeheader;
             h1{
@@ -135,7 +117,7 @@ main{
         .mainhomeaboutminecraft{
             grid-area: mainhomeaboutminecraft;
             h2{
-                font-size: 2vw;
+                font-size: 1.5vw;
                 margin: 0%;
                 padding: 0%;
                 margin-left: 0.5vw;
@@ -146,7 +128,7 @@ main{
                 font-style: normal;
             }
             p{
-                font-size: 1vw;
+                font-size: 0.75vw;
                 margin: 0%;
                 padding: 0%;
                 margin-left: 0.5vw;
