@@ -98,7 +98,7 @@ main{
         grid-template-areas:
         'mainhomeheader mainhomeheader'
         'mainhomeaboutminecraft mainhomeimmage1'
-        'mainhome mainhomeimmage2';
+        'mainhomeaboutwebsite mainhomeimmage2';
         .mainhomeheader{
             grid-area: mainhomeheader;
             h1{
@@ -139,7 +139,37 @@ main{
                 font-style: normal;
             }
         }
-        .mainhomeimmage1
+        .mainhomeimmage1{
+            grid-area: mainhomeimmage1;
+        }
+        .mainhomeaboutwebsite{
+            grid-area: mainhomeaboutwebsite;
+            h2{
+                font-size: 1.5vw;
+                margin: 0%;
+                padding: 0%;
+                margin-left: 0.5vw;
+                color: #000000;
+                font-family: "Merriweather Sans", sans-serif;
+                font-optical-sizing: auto;
+                font-weight: 450;
+                font-style: normal;
+            }
+            p{
+                font-size: 0.8vw;
+                margin: 0%;
+                padding: 0%;
+                margin-left: 0.5vw;
+                color: #000000;
+                font-family: "Merriweather Sans", sans-serif;
+                font-optical-sizing: auto;
+                font-weight: 450;
+                font-style: normal;
+            }
+        }
+        .mainhomeimmage2{
+            grid-area: mainhomeimmage2;
+        }
     }
 }
 footer{
