@@ -99,6 +99,21 @@ main{
         'mainhomeheader mainhomeheader'
         'mainhome mainhome'
         'mainhome mainhome';
+        h1{
+        margin: 0%;
+        padding: 0%;
+        color: #000000;
+        font-family: "Merriweather Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 450;
+        font-style: normal;
+        }
+        h2{
+
+        }
+        p{
+
+        }
         .mainhomeheader{
             grid-area: mainhomeheader;
         }
