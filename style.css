@@ -101,7 +101,6 @@ main{
         'mainhome mainhomeimmage2';
         .mainhomeheader{
             grid-area: mainhomeheader;
-            height: 2.5vw;
             h1{
                 font-size: 2.5vw;
                 margin: 0%;
@@ -140,6 +139,7 @@ main{
                 font-style: normal;
             }
         }
+        .mainhomeimmage1
     }
 }
 footer{
