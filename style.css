@@ -145,10 +145,10 @@ main{
             
             img{
                 border-image-source: url(border.png);
-                border-image-width: 10px;
+                border-image-width: 7px;
                 border-image-repeat: repeat;  
                 border-image-slice: 7;
-                border-image-outset: 1px;
+                border-image-outset: 7px;
                 max-width: 28vw;
                 margin: 2%;
             }
