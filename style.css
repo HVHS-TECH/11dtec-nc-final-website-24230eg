@@ -145,6 +145,7 @@ main{
             grid-area: mainhomeimmage1;
             
             img{
+                /*i made the border my self using minecraft resources as refrence.*/
                 border-image-source: url(border.png);
                 border-image-width: 1vw;
                 border-image-repeat: repeat;  
