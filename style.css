@@ -145,11 +145,11 @@ main{
             
             img{
                 border-image-source: url(border.png);
-                border-image-width: 7px;
+                border-image-width: 1vw;
                 border-image-repeat: repeat;  
-                border-image-slice: 7;
-                border-image-outset: 7px;
-                max-width: 28vw;
+                border-image-slice: 28;
+                border-image-outset: 1vw;
+                max-width: 20vw;
                 margin: 2%;
             }
         }
