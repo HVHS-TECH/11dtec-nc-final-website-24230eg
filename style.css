@@ -144,7 +144,10 @@ main{
             grid-area: mainhomeimmage1;
             
             img{
-                border-image: url(border.png) 30% round;
+                border-image: url(border.png);
+                border-image-width: 3vw;
+                border-image-repeat: round;  
+                border-image-slice: 30%;
                 max-width: 28vw;
                 margin: 2%;
             }
