@@ -142,8 +142,9 @@ main{
         }
         .mainhomeimmage1{
             grid-area: mainhomeimmage1;
-            border-image: url(border.png) 30%;
+            
             img{
+                border-image: url(border.png) 30% round;
                 max-width: 28vw;
                 margin: 2%;
             }
