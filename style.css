@@ -145,8 +145,8 @@ main{
             
             img{
                 border-image: url(border.png);
-                border-image-width: 3vw;
-                border-image-repeat: round;  
+                border-image-width: 20px;
+                border-image-repeat: stretch;  
                 border-image-slice: 30%;
                 max-width: 28vw;
                 margin: 2%;
