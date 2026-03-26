@@ -144,10 +144,11 @@ main{
             grid-area: mainhomeimmage1;
             
             img{
-                border-image: url(border.png);
-                border-image-width: 20px;
-                border-image-repeat: stretch;  
-                border-image-slice: 30%;
+                border-image-source: url(border.png);
+                border-image-width: 10px;
+                border-image-repeat: repeat;  
+                border-image-slice: 7;
+                border-image-outset: 1px;
                 max-width: 28vw;
                 margin: 2%;
             }
