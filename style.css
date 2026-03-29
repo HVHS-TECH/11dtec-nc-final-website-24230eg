@@ -145,12 +145,7 @@ main{
             grid-area: mainhomeimmage1;
             
             img{
-                /*i made the border my self using minecraft resources as refrence.*/
-                border-image-source: url(border.png);
-                border-image-width: 1vw;
-                border-image-repeat: repeat;  
-                border-image-slice: 28;
-                border-image-outset: 1vw;
+
                 max-width: 20vw;
                 margin: 2%;
             }
@@ -190,6 +185,12 @@ main{
         }
     }
 }
+/*I made the border my self using minecraft resources as refrence. Im just saveing the code here.
+border-image-source: url(border.png);
+border-image-width: 1vw;
+border-image-repeat: repeat;  
+border-image-slice: 28;
+border-image-outset: 1vw;*/
 footer{
     margin: 0%;
     padding: 0%;
