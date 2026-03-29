@@ -102,6 +102,9 @@ main{
         'mainhomeaboutwebsite mainhomeimmage2';
         .mainhomeheader{
             grid-area: mainhomeheader;
+            border-bottom-style: solid;
+            border-bottom-color: #004500;
+            border-bottom-width: 0.5vh;
             h1{
                 font-size: 2.5vw;
                 margin: 0%;
@@ -118,6 +121,9 @@ main{
         .mainhomeaboutminecraft{
             grid-area: mainhomeaboutminecraft;
             max-width: 30vw;
+            border-bottom-style: solid;
+            border-bottom-color: #004500;
+            border-bottom-width: 0.5vh;
             h2{
                 font-size: 1.5vw;
                 margin: 0%;
@@ -141,6 +147,9 @@ main{
         }
         .mainhomeimmage1{
             grid-area: mainhomeimmage1;
+            border-bottom-style: solid;
+            border-bottom-color: #004500;
+            border-bottom-width: 0.5vh;
             img{
                 border-style: solid;
                 border-color: #004500;
