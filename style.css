@@ -144,7 +144,8 @@ main{
         .mainhomeimmage1{
             grid-area: mainhomeimmage1;
             img{
-                border-
+                border-style: solid;
+                border-color: 004500;
                 max-width: 20vw;
                 margin: 2%;
             }
