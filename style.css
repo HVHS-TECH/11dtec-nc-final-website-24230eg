@@ -199,6 +199,27 @@ main{
         min-height: 70vh;
         background-color: #d0f0c0;
         display: grid;
+         grid-template-areas:
+        'mainpvpheader mainpvpheader'
+        'mainpvpabout mainpvpabout';
+        .mainpvpheader{
+            grid-area: mainhomeheader;
+            border-bottom-style: solid;
+            border-bottom-color: #004500;
+            border-bottom-width: 0.5vh;
+            h1{
+                font-size: 2.5vw;
+                margin: 0%;
+                padding: 0%;
+                margin-top: 1vw;
+                margin-bottom: 1vw;
+                color: #000000;
+                font-family: "Merriweather Sans", sans-serif;
+                font-optical-sizing: auto;
+                font-weight: 450;
+                font-style: normal;
+            }
+        }
     }
 }
 /*I made the border my self using minecraft resources as refrence. Im just saveing the code here.
