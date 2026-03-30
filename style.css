@@ -199,11 +199,11 @@ main{
         min-height: 70vh;
         background-color: #d0f0c0;
         display: grid;
-         grid-template-areas:
+        grid-template-areas:
         'mainpvpheader mainpvpheader'
         'mainpvpabout mainpvpabout';
         .mainpvpheader{
-            grid-area: mainhomeheader;
+            grid-area: mainpvpheader;
             border-bottom-style: solid;
             border-bottom-color: #004500;
             border-bottom-width: 0.5vh;
@@ -219,6 +219,12 @@ main{
                 font-weight: 450;
                 font-style: normal;
             }
+        }
+        .mainpvpabout{
+            grid-area: mainpvpabout;
+            border-bottom-style: solid;
+            border-bottom-color: #004500;
+            border-bottom-width: 0.5vh;
         }
     }
 }
