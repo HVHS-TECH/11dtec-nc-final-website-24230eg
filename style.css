@@ -207,6 +207,8 @@ main{
             border-bottom-style: solid;
             border-bottom-color: #004500;
             border-bottom-width: 0.5vh;
+            text-align: center;
+            height: ;
             h1{
                 font-size: 2.5vw;
                 margin: 0%;
