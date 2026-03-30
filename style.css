@@ -111,7 +111,7 @@ main{
                 padding: 0%;
                 margin-top: 1vw;
                 margin-bottom: 1vw;
-                color: #000000;
+                color: #004500;
                 font-family: "Merriweather Sans", sans-serif;
                 font-optical-sizing: auto;
                 font-weight: 450;
@@ -209,14 +209,13 @@ main{
             border-bottom-color: #004500;
             border-bottom-width: 0.5vh;
             text-align: center;
-            max-height: 10vh;
             h1{
-                font-size: 5vh;
+                font-size: 2.5vw;
                 margin: 0%;
                 padding: 0%;
                 margin-top: 1vw;
                 margin-bottom: 1vw;
-                color: #000000;
+                color: #004500;
                 font-family: "Merriweather Sans", sans-serif;
                 font-optical-sizing: auto;
                 font-weight: 450;
