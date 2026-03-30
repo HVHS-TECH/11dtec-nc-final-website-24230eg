@@ -208,9 +208,9 @@ main{
             border-bottom-color: #004500;
             border-bottom-width: 0.5vh;
             text-align: center;
-            height: ;
+            max-height: 10vh;
             h1{
-                font-size: 2.5vw;
+                font-size: 5vh;
                 margin: 0%;
                 padding: 0%;
                 margin-top: 1vw;
