@@ -193,6 +193,13 @@ main{
             }
         }
     }
+    .mainpvp{
+        width: 60vw;
+        padding: 0.5vw;
+        min-height: 70vh;
+        background-color: #d0f0c0;
+        display: grid;
+    }
 }
 /*I made the border my self using minecraft resources as refrence. Im just saveing the code here.
 border-image-source: url(border.png);
