@@ -199,7 +199,7 @@ main{
         min-height: 70vh;
         background-color: #d0f0c0;
         display: grid;
-        place-content: initial;
+        grid-row-end: inherit;
         grid-template-areas:
         'mainpvpheader mainpvpheader'
         'mainpvpabout mainpvpabout';
