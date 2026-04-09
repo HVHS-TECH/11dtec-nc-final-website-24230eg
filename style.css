@@ -6,6 +6,9 @@ body{
         display: none;
     }
 }
+#backgroundvideo{
+    order: 1;
+}
 header{
     margin: 0%;
     padding: 0%;
