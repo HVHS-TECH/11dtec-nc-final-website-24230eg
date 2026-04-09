@@ -266,7 +266,8 @@ border-image-repeat: repeat;
 border-image-slice: 28;
 border-image-outset: 1vw;*/
 footer{
-    position: ;
+    position: fixed;
+    bottom: 0;
     z-index: 2;
     margin: 0%;
     padding: 0%;
