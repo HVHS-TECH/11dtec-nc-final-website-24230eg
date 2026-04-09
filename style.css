@@ -7,7 +7,7 @@ body{
     }
 }
 #backgroundvideo{
-    order: 1;
+    z-index: -1;
 }
 header{
     margin: 0%;
