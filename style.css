@@ -85,19 +85,11 @@ header{
     }
 }
 main{
-    max-height: 70vh;
     margin: 0%;
     padding: 0%;
     background-color: #e9ffdb;
     display: flex;
     justify-content: center;
-    #backgroundvideo{
-        margin: 0%;
-        padding: 0%;
-        border: 0%;
-        width:100%;
-        height:200%
-    }
     .mainhome{
         width: 60vw;
         padding: 0.5vw;
