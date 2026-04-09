@@ -1,5 +1,5 @@
-all{
-    z-index: 1;
+all:not(#backgroundvideo){
+    z-index: 2;
 }
 body{
     margin:0%;
@@ -10,7 +10,9 @@ body{
     }
 }
 #backgroundvideo{
-    z-index: 0;
+    z-index: 1;
+    width: 100vw;
+    height: 100vh;
 }
 header{
     margin: 0%;
