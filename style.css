@@ -90,6 +90,9 @@ main{
     background-color: #e9ffdb;
     display: flex;
     justify-content: center;
+    #backgroundvideo{
+        width:100vw;
+    }
     .mainhome{
         width: 60vw;
         padding: 0.5vw;
