@@ -93,7 +93,11 @@ main{
     display: flex;
     justify-content: center;
     #backgroundvideo{
+        margin: 0%;
+        padding: 0%;
+        border: 0%;
         width:100vw;
+        min-height: 70vh;
     }
     .mainhome{
         width: 60vw;
