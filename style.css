@@ -92,6 +92,7 @@ header{
     }
 }
 main{
+    position: static;
     z-index: 2;
     margin: 0%;
     padding: 0%;
@@ -272,6 +273,7 @@ footer{
     margin: 0%;
     padding: 0%;
     height: 5vh;
+    width: 100vw;
     background-color: #002200;
     p{
         margin: 0%;
