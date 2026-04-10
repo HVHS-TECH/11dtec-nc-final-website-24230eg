@@ -8,13 +8,13 @@ body{
 }
 #backgroundvideo{
     z-index: 1;
-    size-adjust: ;
+    size: 25%;
     min-width: 100vw;
     min-height: 100vh;
     position: fixed;
 }
 header{
-    z-index: 2;
+    z-index: 3;
     margin: 0%;
     padding: 0%;
     position: sticky;
@@ -93,7 +93,7 @@ header{
     }
 }
 main{
-    position: static;
+    position: relative;
     z-index: 2;
     margin: 0%;
     padding: 0%;
@@ -268,7 +268,7 @@ border-image-repeat: repeat;
 border-image-slice: 28;
 border-image-outset: 1vw;*/
 footer{
-    position: fixed;
+    position: relative;
     bottom: 0;
     z-index: 2;
     margin: 0%;
