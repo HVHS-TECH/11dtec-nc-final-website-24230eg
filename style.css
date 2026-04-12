@@ -103,6 +103,7 @@ main{
         border-right-width: 0.5vw;
         border-right-color: #004500;
         border-left-color: #004500;
+        border-left-style: groove;
         width: 60vw;
         padding: 0.5vw;
         min-height: 70vh;
