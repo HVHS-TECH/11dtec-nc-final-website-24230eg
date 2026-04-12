@@ -99,11 +99,12 @@ main{
     display: flex;
     justify-content: center;
     .mainhome{
-        border-left-width: 0.5vw;
-        border-right-width: 0.5vw;
+        border-left-width: 0.25vw;
+        border-right-width: 0.25vw;
         border-right-color: #004500;
         border-left-color: #004500;
-        border-left-style: groove;
+        border-right-style: double;
+        border-left-style: double;
         width: 60vw;
         padding: 0.5vw;
         min-height: 70vh;
