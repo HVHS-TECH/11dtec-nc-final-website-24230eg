@@ -196,8 +196,12 @@ main{
         .mainhomeimmage2{
             grid-area: mainhomeimmage2;
             img{
-                max-width: 28vw;
-                margin: 2%;
+                border-style: solid;
+                border-color: #004500;
+                border-width: .25vw;
+                max-width: 28.5vw;
+                margin: 0.5vw;
+                margin-bottom: 1vh;
             }
         }
     }
