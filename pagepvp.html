@@ -32,7 +32,7 @@
                 </li>
                 <li>
                     <a href="pagepve.html">
-                        Survial/PVE
+                        Survival/PVE
                     </a>
                 </li>
                 <li>
@@ -57,10 +57,465 @@
             </div>
             <div class="mainpvpabout">
                 <h2>
-                    ijibi hoiuho juhjhgiuhnojn
+                    About this page:
                 </h2>
                 <p>
-                    adsdyfyguhjgyfdtfhg g vyg cgigyt
+                    In this page I am only going to cover morden PvP from after version 1.9 (the combate update). I will also only cover PvP in java edition (the pc only version) because it is what I mostly play and has a more prominent and advanced PvP comunity. I will only mention and cover mid level skills that I am capible of in game modes I am proficent at and won't cover the supper basics like controles and stuff.
+                </p>
+            </div>
+            <div class="mainpvpspaceingandtimeingvideo">
+                <div class="videothing" id="videothing1">
+                    <div class="videothingest">
+                        <video id="spacingandtimeing" onclick="playPause1()" ontimeupdate="barUpdate1()"  preload="auto">
+                            <source src="pvpvideos/spacingandtimeing.mp4" type="video/mp4">
+                        </video>
+                        <div class="videobuttons" id="videobuttons1">
+                        <button onclick="playPause1()">
+                                <img id="playpauseimg1" src="videocontrols/playbutton.png">
+                        </button>
+                        <button onclick="muteUnmute1()" onmouseenter="displayVolume1()" onmouseleave="hideVolume1()">
+                                <img id="muteunmuteimg1" src="videocontrols/mute.png">
+                        </button>
+                        <button onclick="fullscrean1()" class="fullscreanbutton">
+                            <img id="fullscreanimg1" src="videocontrols/fullscrean.png">
+                        </button>
+                        </div>
+                        <div class="volume" id="volume1" style="display: none;" onmouseenter="displayVolume1()" onmouseleave="hideVolume1()">
+                            <input id="volumebar1" type="range" oninput="changeVolume1()" value="100">
+                        </div>
+                    </div>
+                    <input class="timebar" id="timebar1" type="range" oninput="changeTime1()" min="0" max="1000" value="0">
+                    <script>
+                        var spacingandtimeing = document.getElementById("spacingandtimeing");
+                        function playPause1() { 
+                            if (spacingandtimeing.paused) {
+                                spacingandtimeing.play();
+                                document.getElementById("playpauseimg1").src="videocontrols/pausebutton.png";
+                            }
+                            else {
+                                spacingandtimeing.pause();
+                                document.getElementById("playpauseimg1").src="videocontrols/playbutton.png";
+                            }
+                        }
+                        function muteUnmute1() {
+                            if (spacingandtimeing.muted===true){
+                                spacingandtimeing.muted=false;
+                                document.getElementById("muteunmuteimg1").src="videocontrols/mute.png";
+                            }
+                            else{
+                                spacingandtimeing.muted=true;
+                                document.getElementById("muteunmuteimg1").src="videocontrols/muted.png";
+                            }
+                        }
+                        function displayVolume1() {
+                            document.getElementById("volume1").style.display="block";
+                        }
+                        function hideVolume1() {
+                            document.getElementById("volume1").style.display="none";
+                        }
+                        function barUpdate1() {
+                            document.getElementById("timebar1").value=(spacingandtimeing.currentTime/spacingandtimeing.duration)*1000;
+                        }
+                        function changeTime1(){
+                            spacingandtimeing.currentTime=(document.getElementById("timebar1").value/1000)*spacingandtimeing.duration;
+                        }
+                        function changeVolume1() {
+                            spacingandtimeing.volume=document.getElementById("volumebar1").value/100;
+                        }
+                        function fullscrean1() {
+                            if(document.fullscreenElement === document.getElementById("videothing1")){
+                                document.exitFullscreen();
+                                document.getElementById("timebar1").style.position="relative";
+                                document.getElementById("videobuttons1").style.bottom="0";
+                                document.getElementById("volume1").style.bottom="2.1vw";
+                            }
+                            else {
+                                document.getElementById("videothing1").requestFullscreen();
+                                document.getElementById("timebar1").style.position="absolute";
+                                document.getElementById("videobuttons1").style.bottom="2vw";
+                                document.getElementById("volume1").style.bottom="4.1vw";
+                            }
+                        }
+                        document.addEventListener("fullscreenchange", function(){
+                            if(document.fullscreenElement === null){
+                                document.getElementById("timebar1").style.position="relative";
+                                document.getElementById("videobuttons1").style.bottom="0";
+                                document.getElementById("volume1").style.bottom="2.1vw";
+                            }
+                        });
+                    </script>
+                </div>
+            </div>
+            <div class="mainpvpspaceingandtimeing">
+                <h2>
+                    Spacing & Timing:
+                </h2>
+                <p>
+                    In the video I go over two basic aspects which are crucial to all PvP in Minecraft.
+                </p>
+            </div>
+            <div class="mainpvpshieldsandshielddisablingvideo">
+                <div class="videothing" id="videothing2">
+                    <div class="videothingest">
+                        <video id="shieldsandshielddisabling" onclick="playPause2()" ontimeupdate="barUpdate2()"  preload="auto">
+                            <source src="pvpvideos/shieldsandshielddisabling.mp4" type="video/mp4">
+                        </video>
+                        <div class="videobuttons" id="videobuttons2">
+                        <button onclick="playPause2()">
+                                <img id="playpauseimg2" src="videocontrols/playbutton.png">
+                        </button>
+                        <button onclick="muteUnmute2()" onmouseenter="displayVolume2()" onmouseleave="hideVolume2()">
+                                <img id="muteunmuteimg2" src="videocontrols/mute.png">
+                        </button>
+                        <button onclick="fullscrean2()" class="fullscreanbutton">
+                            <img id="fullscreanimg2" src="videocontrols/fullscrean.png">
+                        </button>
+                        </div>
+                        <div class="volume" id="volume2" style="display: none;" onmouseenter="displayVolume2()" onmouseleave="hideVolume2()">
+                            <input id="volumebar2" type="range" oninput="changeVolume2()" value="100">
+                        </div>
+                    </div>
+                    <input class="timebar" id="timebar2" type="range" oninput="changeTime2()" min="0" max="1000" value="0">
+                    <script>
+                        var shieldsandshielddisabling = document.getElementById("shieldsandshielddisabling");
+                        function playPause2() { 
+                            if (shieldsandshielddisabling.paused) {
+                                shieldsandshielddisabling.play();
+                                document.getElementById("playpauseimg2").src="videocontrols/pausebutton.png";
+                            }
+                            else {
+                                shieldsandshielddisabling.pause();
+                                document.getElementById("playpauseimg2").src="videocontrols/playbutton.png";
+                            }
+                        }
+                        function muteUnmute2() {
+                            if (shieldsandshielddisabling.muted===true){
+                                shieldsandshielddisabling.muted=false;
+                                document.getElementById("muteunmuteimg2").src="videocontrols/mute.png";
+                            }
+                            else{
+                                shieldsandshielddisabling.muted=true;
+                                document.getElementById("muteunmuteimg2").src="videocontrols/muted.png";
+                            }
+                        }
+                        function displayVolume2() {
+                            document.getElementById("volume2").style.display="block";
+                        }
+                        function hideVolume2() {
+                            document.getElementById("volume2").style.display="none";
+                        }
+                        function barUpdate2() {
+                            document.getElementById("timebar2").value=(shieldsandshielddisabling.currentTime/shieldsandshielddisabling.duration)*1000;
+                        }
+                        function changeTime2(){
+                            shieldsandshielddisabling.currentTime=(document.getElementById("timebar2").value/1000)*shieldsandshielddisabling.duration;
+                        }
+                        function changeVolume2() {
+                            shieldsandshielddisabling.volume=document.getElementById("volumebar2").value/100;
+                        }
+                        function fullscrean2() {
+                            if(document.fullscreenElement === document.getElementById("videothing2")){
+                                document.exitFullscreen();
+                                document.getElementById("timebar2").style.position="relative";
+                                document.getElementById("videobuttons2").style.bottom="0";
+                                document.getElementById("volume2").style.bottom="2.1vw";
+                            }
+                            else {
+                                document.getElementById("videothing2").requestFullscreen();
+                                document.getElementById("timebar2").style.position="absolute";
+                                document.getElementById("videobuttons2").style.bottom="2vw";
+                                document.getElementById("volume2").style.bottom="4.1vw";
+                            }
+                        }
+                        document.addEventListener("fullscreenchange", function(){
+                            if(document.fullscreenElement === null){
+                                document.getElementById("timebar2").style.position="relative";
+                                document.getElementById("videobuttons2").style.bottom="0";
+                                document.getElementById("volume2").style.bottom="2.1vw";
+                            }
+                        });
+                    </script>
+                </div>
+            </div>
+            <div class="mainpvpshieldsandshielddisabling">
+                <h2>
+                    Shielding & Shield disabling
+                </h2>
+                <p>
+                    I go over one of the greatest defensive items in Minecraft and how to counter it.
+                </p>
+            </div>
+            <div class="mainpvpcooldowntrickingandattributeswappingvideo">
+                <div class="videothing" id="videothing3">
+                    <div class="videothingest">
+                        <video id="cooldowntrickingandattributeswapping" onclick="playPause3()" ontimeupdate="barUpdate3()"  preload="auto">
+                            <source src="pvpvideos/cooldowntrickingandattributeswapping.mp4" type="video/mp4">
+                        </video>
+                        <div class="videobuttons" id="videobuttons3">
+                        <button onclick="playPause3()">
+                                <img id="playpauseimg3" src="videocontrols/playbutton.png">
+                        </button>
+                        <button onclick="muteUnmute3()" onmouseenter="displayVolume3()" onmouseleave="hideVolume3()">
+                                <img id="muteunmuteimg3" src="videocontrols/mute.png">
+                        </button>
+                        <button onclick="fullscrean3()" class="fullscreanbutton">
+                            <img id="fullscreanimg3" src="videocontrols/fullscrean.png">
+                        </button>
+                        </div>
+                        <div class="volume" id="volume3" style="display: none;" onmouseenter="displayVolume3()" onmouseleave="hideVolume3()">
+                            <input id="volumebar3" type="range" oninput="changeVolume3()" value="100">
+                        </div>
+                    </div>
+                    <input class="timebar" id="timebar3" type="range" oninput="changeTime3()" min="0" max="1000" value="0">
+                    <script>
+                        var cooldowntrickingandattributeswapping = document.getElementById("cooldowntrickingandattributeswapping");
+                        function playPause3() { 
+                            if (cooldowntrickingandattributeswapping.paused) {
+                                cooldowntrickingandattributeswapping.play();
+                                document.getElementById("playpauseimg3").src="videocontrols/pausebutton.png";
+                            }
+                            else {
+                                cooldowntrickingandattributeswapping.pause();
+                                document.getElementById("playpauseimg3").src="videocontrols/playbutton.png";
+                            }
+                        }
+                        function muteUnmute3() {
+                            if (cooldowntrickingandattributeswapping.muted===true){
+                                cooldowntrickingandattributeswapping.muted=false;
+                                document.getElementById("muteunmuteimg3").src="videocontrols/mute.png";
+                            }
+                            else{
+                                cooldowntrickingandattributeswapping.muted=true;
+                                document.getElementById("muteunmuteimg3").src="videocontrols/muted.png";
+                            }
+                        }
+                        function displayVolume3() {
+                            document.getElementById("volume3").style.display="block";
+                        }
+                        function hideVolume3() {
+                            document.getElementById("volume3").style.display="none";
+                        }
+                        function barUpdate3() {
+                            document.getElementById("timebar3").value=(cooldowntrickingandattributeswapping.currentTime/cooldowntrickingandattributeswapping.duration)*1000;
+                        }
+                        function changeTime3(){
+                            cooldowntrickingandattributeswapping.currentTime=(document.getElementById("timebar3").value/1000)*cooldowntrickingandattributeswapping.duration;
+                        }
+                        function changeVolume3() {
+                            cooldowntrickingandattributeswapping.volume=document.getElementById("volumebar3").value/100;
+                        }
+                        function fullscrean3() {
+                            if(document.fullscreenElement === document.getElementById("videothing3")){
+                                document.exitFullscreen();
+                                document.getElementById("timebar3").style.position="relative";
+                                document.getElementById("videobuttons3").style.bottom="0";
+                                document.getElementById("volume3").style.bottom="2.1vw";
+                            }
+                            else {
+                                document.getElementById("videothing3").requestFullscreen();
+                                document.getElementById("timebar3").style.position="absolute";
+                                document.getElementById("videobuttons3").style.bottom="2vw";
+                                document.getElementById("volume3").style.bottom="4.1vw";
+                            }
+                        }
+                        document.addEventListener("fullscreenchange", function(){
+                            if(document.fullscreenElement === null){
+                                document.getElementById("timebar3").style.position="relative";
+                                document.getElementById("videobuttons3").style.bottom="0";
+                                document.getElementById("volume3").style.bottom="2.1vw";
+                            }
+                        });
+                    </script>
+                </div>
+            </div>
+            <div class="mainpvpcooldowntrickingandattributeswapping">
+                <h2>
+                    Cooldown tricking & Attribute swapping:
+                </h2>
+                <p>
+                    Now we are geting in to some definitly more technical tricks and technuikes, they are bothe kind of the same technuike in a way but used and performed diffrently to get diffrent results.
+                </p>
+            </div>
+            <div class="mainpvppearlselytraingandwindchargesvideo">
+                <div class="videothing" id="videothing4">
+                    <div class="videothingest">
+                        <video id="pearlselytraingandwindcharges" onclick="playPause4()" ontimeupdate="barUpdate4()"  preload="auto">
+                            <source src="pvpvideos/pearlselytraingandwindcharges.mp4" type="video/mp4">
+                        </video>
+                        <div class="videobuttons" id="videobuttons4">
+                        <button onclick="playPause4()">
+                                <img id="playpauseimg4" src="videocontrols/playbutton.png">
+                        </button>
+                        <button onclick="muteUnmute4()" onmouseenter="displayVolume4()" onmouseleave="hideVolume4()">
+                                <img id="muteunmuteimg4" src="videocontrols/mute.png">
+                        </button>
+                        <button onclick="fullscrean4()" class="fullscreanbutton">
+                            <img id="fullscreanimg4" src="videocontrols/fullscrean.png">
+                        </button>
+                        </div>
+                        <div class="volume" id="volume4" style="display: none;" onmouseenter="displayVolume4()" onmouseleave="hideVolume4()">
+                            <input id="volumebar4" type="range" oninput="changeVolume4()" value="100">
+                        </div>
+                    </div>
+                    <input class="timebar" id="timebar4" type="range" oninput="changeTime4()" min="0" max="1000" value="0">
+                    <script>
+                        var pearlselytraingandwindcharges = document.getElementById("pearlselytraingandwindcharges");
+                        function playPause4() { 
+                            if (pearlselytraingandwindcharges.paused) {
+                                pearlselytraingandwindcharges.play();
+                                document.getElementById("playpauseimg4").src="videocontrols/pausebutton.png";
+                            }
+                            else {
+                                pearlselytraingandwindcharges.pause();
+                                document.getElementById("playpauseimg4").src="videocontrols/playbutton.png";
+                            }
+                        }
+                        function muteUnmute4() {
+                            if (pearlselytraingandwindcharges.muted===true){
+                                pearlselytraingandwindcharges.muted=false;
+                                document.getElementById("muteunmuteimg4").src="videocontrols/mute.png";
+                            }
+                            else{
+                                pearlselytraingandwindcharges.muted=true;
+                                document.getElementById("muteunmuteimg4").src="videocontrols/muted.png";
+                            }
+                        }
+                        function displayVolume4() {
+                            document.getElementById("volume4").style.display="block";
+                        }
+                        function hideVolume4() {
+                            document.getElementById("volume4").style.display="none";
+                        }
+                        function barUpdate4() {
+                            document.getElementById("timebar4").value=(pearlselytraingandwindcharges.currentTime/pearlselytraingandwindcharges.duration)*1000;
+                        }
+                        function changeTime4(){
+                            pearlselytraingandwindcharges.currentTime=(document.getElementById("timebar4").value/1000)*pearlselytraingandwindcharges.duration;
+                        }
+                        function changeVolume4() {
+                            pearlselytraingandwindcharges.volume=document.getElementById("volumebar4").value/100;
+                        }
+                        function fullscrean4() {
+                            if(document.fullscreenElement === document.getElementById("videothing4")){
+                                document.exitFullscreen();
+                                document.getElementById("timebar4").style.position="relative";
+                                document.getElementById("videobuttons4").style.bottom="0";
+                                document.getElementById("volume4").style.bottom="2.1vw";
+                            }
+                            else {
+                                document.getElementById("videothing4").requestFullscreen();
+                                document.getElementById("timebar4").style.position="absolute";
+                                document.getElementById("videobuttons4").style.bottom="2vw";
+                                document.getElementById("volume4").style.bottom="4.1vw";
+                            }
+                        }
+                        document.addEventListener("fullscreenchange", function(){
+                            if(document.fullscreenElement === null){
+                                document.getElementById("timebar4").style.position="relative";
+                                document.getElementById("videobuttons4").style.bottom="0";
+                                document.getElementById("volume4").style.bottom="2.1vw";
+                            }
+                        });
+                    </script>
+                </div>
+            </div>
+            <div class="mainpvppearlselytraingandwindcharges">
+                <h2>
+                    Pearls, Elytraing & Windcharges:
+                </h2>
+                <p>
+                    I cover three of the biggest items that aid to your positioning and movement in PvP.
+                </p>
+            </div>
+            <div class="mainpvpelsevideo">
+                <div class="videothing" id="videothing5">
+                    <div class="videothingest">
+                        <video id="els" onclick="playPause5()" ontimeupdate="barUpdate5()"  preload="auto">
+                            <source src="pvpvideos/else.mp4" type="video/mp4">
+                        </video>
+                        <div class="videobuttons" id="videobuttons5">
+                        <button onclick="playPause5()">
+                                <img id="playpauseimg5" src="videocontrols/playbutton.png">
+                        </button>
+                        <button onclick="muteUnmute5()" onmouseenter="displayVolume5()" onmouseleave="hideVolume5()">
+                                <img id="muteunmuteimg5" src="videocontrols/mute.png">
+                        </button>
+                        <button onclick="fullscrean5()" class="fullscreanbutton">
+                            <img id="fullscreanimg5" src="videocontrols/fullscrean.png">
+                        </button>
+                        </div>
+                        <div class="volume" id="volume5" style="display: none;" onmouseenter="displayVolume5()" onmouseleave="hideVolume5()">
+                            <input id="volumebar5" type="range" oninput="changeVolume5()" value="100">
+                        </div>
+                    </div>
+                    <input class="timebar" id="timebar5" type="range" oninput="changeTime5()" min="0" max="1000" value="0">
+                    <script>
+                        var els = document.getElementById("els");
+                        function playPause5() { 
+                            if (els.paused) {
+                                els.play();
+                                document.getElementById("playpauseimg5").src="videocontrols/pausebutton.png";
+                            }
+                            else {
+                                els.pause();
+                                document.getElementById("playpauseimg5").src="videocontrols/playbutton.png";
+                            }
+                        }
+                        function muteUnmute5() {
+                            if (els.muted===true){
+                                els.muted=false;
+                                document.getElementById("muteunmuteimg5").src="videocontrols/mute.png";
+                            }
+                            else{
+                                els.muted=true;
+                                document.getElementById("muteunmuteimg5").src="videocontrols/muted.png";
+                            }
+                        }
+                        function displayVolume5() {
+                            document.getElementById("volume5").style.display="block";
+                        }
+                        function hideVolume5() {
+                            document.getElementById("volume5").style.display="none";
+                        }
+                        function barUpdate5() {
+                            document.getElementById("timebar5").value=(els.currentTime/els.duration)*1000;
+                        }
+                        function changeTime5(){
+                            els.currentTime=(document.getElementById("timebar5").value/1000)*els.duration;
+                        }
+                        function changeVolume5() {
+                            els.volume=document.getElementById("volumebar5").value/100;
+                        }
+                        function fullscrean5() {
+                            if(document.fullscreenElement === document.getElementById("videothing5")){
+                                document.exitFullscreen();
+                                document.getElementById("timebar5").style.position="relative";
+                                document.getElementById("videobuttons5").style.bottom="0";
+                                document.getElementById("volume5").style.bottom="2.1vw";
+                            }
+                            else {
+                                document.getElementById("videothing5").requestFullscreen();
+                                document.getElementById("timebar5").style.position="absolute";
+                                document.getElementById("videobuttons5").style.bottom="2vw";
+                                document.getElementById("volume5").style.bottom="4.1vw";
+                            }
+                        }
+                        document.addEventListener("fullscreenchange", function(){
+                            if(document.fullscreenElement === null){
+                                document.getElementById("timebar5").style.position="relative";
+                                document.getElementById("videobuttons5").style.bottom="0";
+                                document.getElementById("volume5").style.bottom="2.1vw";
+                            }
+                        });
+                    </script>
+                </div>
+            </div>
+            <div class="mainpvpelse">
+                <h2>
+                    What I haven't covered:
+                </h2>
+                <p>
+                    This final video adresses or covers many of the things that don't directly fall under what I said I wouldn't cover but haven't yet.
                 </p>
             </div>
         </div>

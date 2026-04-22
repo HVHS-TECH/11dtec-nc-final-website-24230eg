@@ -8,8 +8,8 @@ body{
 }
 #backgroundvideo{
     z-index: 1;
-    min-width: 100vw;
-    min-height: 100vh;
+    min-height: 80vh;
+    width: 100%;
     position: fixed;
 }
 header{
@@ -212,6 +212,12 @@ main{
         }
     }
     .mainpvp{
+        border-left-width: 0.25vw;
+        border-right-width: 0.25vw;
+        border-right-color: #004500;
+        border-left-color: #004500;
+        border-right-style: double;
+        border-left-style: double;
         width: 60vw;
         padding: 0.5vw;
         min-height: 70vh;
@@ -220,7 +226,12 @@ main{
         grid-row-end: inherit;
         grid-template-areas:
         'mainpvpheader mainpvpheader'
-        'mainpvpabout mainpvpabout';
+        'mainpvpabout mainpvpabout'
+        'mainpvpspaceingandtimeingvideo mainpvpspaceingandtimeing'
+        'mainpvpshieldsandshielddisablingvideo mainpvpshieldsandshielddisabling'
+        'mainpvpcooldowntrickingandattributeswappingvideo mainpvpcooldowntrickingandattributeswapping'
+        'mainpvppearlselytraingandwindchargesvideo mainpvppearlselytraingandwindcharges'
+        'mainpvpelsevideo mainpvpelse';
         .mainpvpheader{
             grid-area: mainpvpheader;
             border-bottom-style: solid;
@@ -260,6 +271,7 @@ main{
                 font-size: 0.8vw;
                 margin: 0%;
                 padding: 0%;
+                margin-bottom: 1vh;
                 color: #001000;
                 font-family: "Merriweather Sans", sans-serif;
                 font-optical-sizing: auto;
@@ -267,6 +279,455 @@ main{
                 font-style: normal;
             }
         }
+        .mainpvpspaceingandtimeingvideo{
+            grid-area: mainpvpspaceingandtimeingvideo;
+            border-bottom-style: solid;
+            border-bottom-color: #004500;
+            border-bottom-width: 0.5vh;
+        }
+        .mainpvpspaceingandtimeing{
+            grid-area: mainpvpspaceingandtimeing;
+            border-bottom-style: solid;
+            border-bottom-color: #004500;
+            border-bottom-width: 0.5vh;
+            h2{
+                font-size: 1.5vw;
+                margin: 0%;
+                padding: 0%;
+                margin-top: 0.5vh;
+                color: #001000;
+                font-family: "Merriweather Sans", sans-serif;
+                font-optical-sizing: auto;
+                font-weight: 450;
+                font-style: normal;
+            }
+            p{
+                font-size: 0.8vw;
+                margin: 0%;
+                padding: 0%;
+                color: #001000;
+                font-family: "Merriweather Sans", sans-serif;
+                font-optical-sizing: auto;
+                font-weight: 450;
+                font-style: normal;
+            }
+        }
+        .mainpvpshieldsandshielddisablingvideo{
+            grid-area: mainpvpshieldsandshielddisablingvideo;
+            border-bottom-style: solid;
+            border-bottom-color: #004500;
+            border-bottom-width: 0.5vh;
+        }
+        .mainpvpshieldsandshielddisabling{
+            grid-area: mainpvpshieldsandshielddisabling;
+            border-bottom-style: solid;
+            border-bottom-color: #004500;
+            border-bottom-width: 0.5vh;
+            h2{
+                font-size: 1.5vw;
+                margin: 0%;
+                padding: 0%;
+                margin-top: 0.5vh;
+                color: #001000;
+                font-family: "Merriweather Sans", sans-serif;
+                font-optical-sizing: auto;
+                font-weight: 450;
+                font-style: normal;
+            }
+            p{
+                font-size: 0.8vw;
+                margin: 0%;
+                padding: 0%;
+                color: #001000;
+                font-family: "Merriweather Sans", sans-serif;
+                font-optical-sizing: auto;
+                font-weight: 450;
+                font-style: normal;
+            }
+        }
+        .mainpvpcooldowntrickingandattributeswappingvideo{
+            grid-area: mainpvpcooldowntrickingandattributeswappingvideo;
+            border-bottom-style: solid;
+            border-bottom-color: #004500;
+            border-bottom-width: 0.5vh;
+        }
+        .mainpvpcooldowntrickingandattributeswapping{
+            grid-area: mainpvpcooldowntrickingandattributeswapping;
+            border-bottom-style: solid;
+            border-bottom-color: #004500;
+            border-bottom-width: 0.5vh;
+            h2{
+                font-size: 1.5vw;
+                margin: 0%;
+                padding: 0%;
+                margin-top: 0.5vh;
+                color: #001000;
+                font-family: "Merriweather Sans", sans-serif;
+                font-optical-sizing: auto;
+                font-weight: 450;
+                font-style: normal;
+            }
+            p{
+                font-size: 0.8vw;
+                margin: 0%;
+                padding: 0%;
+                color: #001000;
+                font-family: "Merriweather Sans", sans-serif;
+                font-optical-sizing: auto;
+                font-weight: 450;
+                font-style: normal;
+            }
+        }
+        .mainpvppearlselytraingandwindchargesvideo{
+            grid-area: mainpvppearlselytraingandwindchargesvideo;
+            border-bottom-style: solid;
+            border-bottom-color: #004500;
+            border-bottom-width: 0.5vh;
+        }
+        .mainpvppearlselytraingandwindcharges{
+            grid-area: mainpvppearlselytraingandwindcharges;
+            border-bottom-style: solid;
+            border-bottom-color: #004500;
+            border-bottom-width: 0.5vh;
+            h2{
+                font-size: 1.5vw;
+                margin: 0%;
+                padding: 0%;
+                margin-top: 0.5vh;
+                color: #001000;
+                font-family: "Merriweather Sans", sans-serif;
+                font-optical-sizing: auto;
+                font-weight: 450;
+                font-style: normal;
+            }
+            p{
+                font-size: 0.8vw;
+                margin: 0%;
+                padding: 0%;
+                color: #001000;
+                font-family: "Merriweather Sans", sans-serif;
+                font-optical-sizing: auto;
+                font-weight: 450;
+                font-style: normal;
+            }
+        }
+        .mainpvpelsevideo{
+            grid-area: mainpvpelsevideo;
+        }
+        .mainpvpelse{
+            grid-area: mainpvpelse;
+            h2{
+                font-size: 1.5vw;
+                margin: 0%;
+                padding: 0%;
+                margin-top: 0.5vh;
+                color: #001000;
+                font-family: "Merriweather Sans", sans-serif;
+                font-optical-sizing: auto;
+                font-weight: 450;
+                font-style: normal;
+            }
+            p{
+                font-size: 0.8vw;
+                margin: 0%;
+                padding: 0%;
+                color: #001000;
+                font-family: "Merriweather Sans", sans-serif;
+                font-optical-sizing: auto;
+                font-weight: 450;
+                font-style: normal;
+            }
+        }
+    }
+    .maincreative{
+        border-left-width: 0.25vw;
+        border-right-width: 0.25vw;
+        border-right-color: #004500;
+        border-left-color: #004500;
+        border-right-style: double;
+        border-left-style: double;
+        width: 60vw;
+        padding: 0.5vw;
+        min-height: 70vh;
+        background-color: #d0f0c0;
+        display: grid;
+        grid-row-end: inherit;
+        grid-template-areas:
+        'maincreativeheader maincreativeheader'
+        'maincreativeabout maincreativeabout'
+        'maincreativetitle maincreativetitle'
+        'maincreativestep1discription maincreativestep1'
+        'maincreativestep2discription maincreativestep2'
+        'maincreativestep3discription maincreativestep3'
+        'maincreativestep4discription maincreativestep4'
+        'maincreativestep5discription maincreativestep5'
+        'maincreativesomephotos maincreativesomephotos';
+        div{
+            h1{
+                font-size: 2.5vw;
+                margin: 0%;
+                padding: 0%;
+                margin-top: 1vw;
+                margin-bottom: 1vw;
+                color: #001000;
+                font-family: "Merriweather Sans", sans-serif;
+                font-optical-sizing: auto;
+                font-weight: 450;
+                font-style: normal;
+            }
+            h2{
+                font-size: 1.5vw;
+                margin: 0%;
+                padding: 0%;
+                margin-top: 0.5vh;
+                color: #001000;
+                font-family: "Merriweather Sans", sans-serif;
+                font-optical-sizing: auto;
+                font-weight: 450;
+                font-style: normal;
+            }
+            h3{
+                font-size: 1.2vw;
+                margin: 0%;
+                padding: 0%;
+                margin-top: 0.5vh;
+                color: #001000;
+                font-family: "Merriweather Sans", sans-serif;
+                font-optical-sizing: auto;
+                font-weight: 450;
+                font-style: normal;
+            }
+            p{
+                font-size: 0.8vw;
+                margin: 0%;
+                padding: 0%;
+                color: #001000;
+                font-family: "Merriweather Sans", sans-serif;
+                font-optical-sizing: auto;
+                font-weight: 450;
+                font-style: normal;
+            }
+            img{
+                max-width: 25vw;
+                border-style: solid;
+                border-color: #004500;
+                border-width: .25vw;
+                margin: 0.5vw;
+            }
+        }
+        .maincreativeheader{
+            grid-area: maincreativeheader;
+            border-bottom-style: solid;
+            border-bottom-color: #004500;
+            border-bottom-width: 0.5vh;
+            text-align: center;
+        }
+        .maincreativeabout{
+            grid-area: maincreativeabout;
+            border-bottom-style: solid;
+            border-bottom-color: #004500;
+            border-bottom-width: 0.5vh;
+        }
+        .maincreativetitle{
+            grid-area: maincreativetitle;
+            border-bottom-style: solid;
+            border-bottom-color: #004500;
+            border-bottom-width: 0.5vh;
+            text-align: center;
+        }
+        .maincreativestep1discription{
+            grid-area: maincreativestep1discription;
+            border-bottom-style: solid;
+            border-bottom-color: #004500;
+            border-bottom-width: 0.5vh;
+        }
+        .maincreativestep1{
+            grid-area: maincreativestep1;
+            border-bottom-style: solid;
+            border-bottom-color: #004500;
+            border-bottom-width: 0.5vh;
+        }
+        .maincreativestep2discription{
+            grid-area: maincreativestep2discription;
+            border-bottom-style: solid;
+            border-bottom-color: #004500;
+            border-bottom-width: 0.5vh;
+        }
+        .maincreativestep2{
+            grid-area: maincreativestep2;
+            border-bottom-style: solid;
+            border-bottom-color: #004500;
+            border-bottom-width: 0.5vh;
+        }
+        .maincreativestep3discription{
+            grid-area: maincreativestep3discription;
+            border-bottom-style: solid;
+            border-bottom-color: #004500;
+            border-bottom-width: 0.5vh;
+        }
+        .maincreativestep3{
+            grid-area: maincreativestep3;
+            border-bottom-style: solid;
+            border-bottom-color: #004500;
+            border-bottom-width: 0.5vh;
+        }
+        .maincreativestep4discription{
+            grid-area: maincreativestep4discription;
+            border-bottom-style: solid;
+            border-bottom-color: #004500;
+            border-bottom-width: 0.5vh;
+        }
+        .maincreativestep4{
+            grid-area: maincreativestep4;
+            border-bottom-style: solid;
+            border-bottom-color: #004500;
+            border-bottom-width: 0.5vh;
+        }
+        .maincreativestep5discription{
+            grid-area: maincreativestep5discription;
+            border-bottom-style: solid;
+            border-bottom-color: #004500;
+            border-bottom-width: 0.5vh;
+        }
+        .maincreativestep5{
+            grid-area: maincreativestep5;
+            border-bottom-style: solid;
+            border-bottom-color: #004500;
+            border-bottom-width: 0.5vh;
+        }
+        .maincreativesomephotos{
+            grid-area: maincreativesomephotos;
+            .photos{
+                max-width: 48vw;
+                border-style: solid;
+                border-color: #004500;
+                border-width: .25vw;
+                margin: 0.5vw;
+                background-color: #004500;
+                display: grid;
+                align-content: space-evenly;
+                justify-content: center;
+                div{
+                    margin:0%;
+                    padding: 0%;
+                    img{
+                        margin: 0%;
+                        border: 0%;
+                        padding: 0%;
+                        width: 15vw;
+                    }
+                }
+            }
+        }
+    }
+    .mainpve{
+        border-left-width: 0.25vw;
+        border-right-width: 0.25vw;
+        border-right-color: #004500;
+        border-left-color: #004500;
+        border-right-style: double;
+        border-left-style: double;
+        width: 60vw;
+        padding: 0.5vw;
+        min-height: 70vh;
+        background-color: #d0f0c0;
+        display: grid;
+        grid-row-end: inherit;
+        grid-template-areas:
+        'mainpveheader mainpveheader'
+        'mainpveabout mainpveabout'
+        'mainpveday1 mainpveday1photos';
+        div{
+            h1{
+                font-size: 2.5vw;
+                margin: 0%;
+                padding: 0%;
+                margin-top: 1vw;
+                margin-bottom: 1vw;
+                color: #001000;
+                font-family: "Merriweather Sans", sans-serif;
+                font-optical-sizing: auto;
+                font-weight: 450;
+                font-style: normal;
+            }
+            h2{
+                font-size: 1.5vw;
+                margin: 0%;
+                padding: 0%;
+                margin-top: 0.5vh;
+                color: #001000;
+                font-family: "Merriweather Sans", sans-serif;
+                font-optical-sizing: auto;
+                font-weight: 450;
+                font-style: normal;
+            }
+            h3{
+                font-size: 1.2vw;
+                margin: 0%;
+                padding: 0%;
+                margin-top: 0.5vh;
+                color: #001000;
+                font-family: "Merriweather Sans", sans-serif;
+                font-optical-sizing: auto;
+                font-weight: 450;
+                font-style: normal;
+            }
+            p{
+                font-size: 0.8vw;
+                margin: 0%;
+                padding: 0%;
+                color: #001000;
+                font-family: "Merriweather Sans", sans-serif;
+                font-optical-sizing: auto;
+                font-weight: 450;
+                font-style: normal;
+            }
+            img{
+                max-width: 25vw;
+                border-style: solid;
+                border-color: #004500;
+                border-width: .25vw;
+                margin: 0.5vw;
+            }
+        }
+        .mainpveheader{
+            grid-area: mainpveheader;
+            border-bottom-style: solid;
+            border-bottom-color: #004500;
+            border-bottom-width: 0.5vh;
+            text-align: center;
+        }
+        .mainpveabout{
+            grid-area: mainpveabout;
+            border-bottom-style: solid;
+            border-bottom-color: #004500;
+            border-bottom-width: 0.5vh;
+        }
+        .mainpveday1{
+            grid-area: mainpveabout;
+            border-bottom-style: solid;
+            border-bottom-color: #004500;
+            border-bottom-width: 0.5vh;
+        }
+        .mainpveday1photos{
+            grid-area: mainpveabout;
+            border-bottom-style: solid;
+            border-bottom-color: #004500;
+            border-bottom-width: 0.5vh;
+        }
+        .mainpveday2photos{
+            grid-area: mainpveabout;
+            border-bottom-style: solid;
+            border-bottom-color: #004500;
+            border-bottom-width: 0.5vh;
+        }
+        .mainpveday2{
+            grid-area: mainpveabout;
+            border-bottom-style: solid;
+            border-bottom-color: #004500;
+            border-bottom-width: 0.5vh;
+        }
+
     }
 }
 /*I made the border my self using minecraft resources as refrence. Im just saveing the code here.
@@ -292,5 +753,84 @@ footer{
         font-optical-sizing: auto;
         font-weight: 450;
         font-style: normal;
+    }
+}
+.videothing{
+    position: static;
+    border-style: solid;
+    border-color: #004500;
+    border-width: .25vw;
+    max-width: 29vw;
+    margin: 0.5vw;
+    .videothingest{
+        position:relative;
+        video{
+            position: relative;
+            display: block;
+            max-width: 100%;
+            height: calc(100%-2vw);
+        }
+        .videobuttons{
+            width: 100%;
+            z-index: 3;
+            position: absolute;
+            bottom: 0;
+            button{
+                padding: 0%;
+                margin: 0%;
+                position: relative;
+                background: none;
+                border: none;
+                img{
+                    width: 2vw;
+                }
+            }
+            .fullscreanbutton{
+                    position: absolute;
+                    padding: 0%;
+                    margin: 0%;
+                    background: none;
+                    border: none;
+                    right: 0;
+                }
+        }
+        .volume{
+            position: absolute;
+            bottom: 2.1vw;
+            left: 3vw;
+            z-index: 3;
+            background-color: #00100055;
+            width: 2vw;
+            input{
+                writing-mode: vertical-rl;
+                appearance: slider-vertical;
+                direction: rtl;
+            }
+        }
+    }
+    .timebar{
+        bottom: 0;
+        z-index: 3;
+        -webkit-appearance: none;
+        appearance: none;
+        width: 100%;
+        overflow: hidden;
+        margin: 0%;
+    }
+    .timebar::-webkit-slider-runnable-track{
+        -webkit-appearance: none;
+        appearance: none;
+        height: 2vw;
+        width: 100%;
+        background-color: #d0f0c0;
+}
+    .timebar::-webkit-slider-thumb{
+        -webkit-appearance: none;
+        appearance: none;
+        height: 2vw;
+        width: 2vw;
+        background-color: #004500;
+        border: 1vw solid #004500;
+        box-shadow: -101.9vw 0px 0px 100vw #004500;
     }
 }
