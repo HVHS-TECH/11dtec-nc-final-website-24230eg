@@ -636,7 +636,8 @@ main{
         grid-template-areas:
         'mainpveheader mainpveheader'
         'mainpveabout mainpveabout'
-        'mainpveday1 mainpveday1photos';
+        'mainpveday1 mainpveday1photos'
+        'mainpveday2photos mainpveday2';
         div{
             h1{
                 font-size: 2.5vw;
@@ -704,25 +705,25 @@ main{
             border-bottom-width: 0.5vh;
         }
         .mainpveday1{
-            grid-area: mainpveabout;
+            grid-area: mainpveday1;
             border-bottom-style: solid;
             border-bottom-color: #004500;
             border-bottom-width: 0.5vh;
         }
         .mainpveday1photos{
-            grid-area: mainpveabout;
+            grid-area: mainpveday1photos;
             border-bottom-style: solid;
             border-bottom-color: #004500;
             border-bottom-width: 0.5vh;
         }
         .mainpveday2photos{
-            grid-area: mainpveabout;
+            grid-area: mainpveday2photos;
             border-bottom-style: solid;
             border-bottom-color: #004500;
             border-bottom-width: 0.5vh;
         }
         .mainpveday2{
-            grid-area: mainpveabout;
+            grid-area: mainpveday2;
             border-bottom-style: solid;
             border-bottom-color: #004500;
             border-bottom-width: 0.5vh;
