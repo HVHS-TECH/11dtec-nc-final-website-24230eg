@@ -2,15 +2,6 @@ body{
     margin:0%;
     padding: 0%;
     overflow-x: hidden;
-    ::-webkit-scrollbar {
-        display: none;
-    }
-}
-#backgroundimmage{
-    z-index: 1;
-    min-height: 80vh;
-    width: 100%;
-    position: fixed;
 }
 #backgroundvideo{
     z-index: 1;
