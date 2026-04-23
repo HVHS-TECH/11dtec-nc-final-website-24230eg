@@ -637,7 +637,9 @@ main{
         'mainpveheader mainpveheader'
         'mainpveabout mainpveabout'
         'mainpveday1 mainpveday1photos'
-        'mainpveday2photos mainpveday2';
+        'mainpveday2photos mainpveday2'
+        'mainpveday3 mainpveday3photos'
+        'mainpveelse mainpveelse';
         div{
             h1{
                 font-size: 2.5vw;
@@ -683,13 +685,46 @@ main{
                 font-weight: 450;
                 font-style: normal;
             }
-            img{
-                max-width: 25vw;
+            .photos{
+                width: 23.5vw;
                 border-style: solid;
                 border-color: #004500;
                 border-width: .25vw;
                 margin: 0.5vw;
-            }
+                background-color: #004500;
+                display: grid;
+                align-content: space-evenly;
+                justify-content: center;
+                .gridlenth3{
+                    margin:0%;
+                    padding: 0%;
+                    img{
+                        margin: 0%;
+                        border: 0%;
+                        padding: 0%;
+                        max-width: 7vw;
+                    }
+                }
+                .gridlenth4{
+                    margin:0%;
+                    padding: 0%;
+                    img{
+                        margin: 0%;
+                        border: 0%;
+                        padding: 0%;
+                        max-width: 5.5vw;
+                    }
+                }
+                div{
+                    margin:0%;
+                    padding: 0%;
+                    img{
+                        margin: 0%;
+                        border: 0%;
+                        padding: 0%;
+                        width: 7vw;
+                    }
+                }
         }
         .mainpveheader{
             grid-area: mainpveheader;
@@ -715,26 +750,6 @@ main{
             border-bottom-style: solid;
             border-bottom-color: #004500;
             border-bottom-width: 0.5vh;
-            .photos{
-                width: 23.5vw;
-                border-style: solid;
-                border-color: #004500;
-                border-width: .25vw;
-                margin: 0.5vw;
-                background-color: #004500;
-                display: grid;
-                align-content: space-evenly;
-                justify-content: center;
-                div{
-                    margin:0%;
-                    padding: 0%;
-                    img{
-                        margin: 0%;
-                        border: 0%;
-                        padding: 0%;
-                        width: 7vw;
-                    }
-                }
             }
         }
         .mainpveday2photos{
@@ -742,26 +757,6 @@ main{
             border-bottom-style: solid;
             border-bottom-color: #004500;
             border-bottom-width: 0.5vh;
-            .photos{
-                width: 23.5vw;
-                border-style: solid;
-                border-color: #004500;
-                border-width: .25vw;
-                margin: 0.5vw;
-                background-color: #004500;
-                display: grid;
-                align-content: space-evenly;
-                justify-content: center;
-                div{
-                    margin:0%;
-                    padding: 0%;
-                    img{
-                        margin: 0%;
-                        border: 0%;
-                        padding: 0%;
-                        width: 7vw;
-                    }
-                }
             }
         }
         .mainpveday2{
@@ -770,7 +765,21 @@ main{
             border-bottom-color: #004500;
             border-bottom-width: 0.5vh;
         }
-
+        .mainpveday3{
+            grid-area: mainpveday3;
+            border-bottom-style: solid;
+            border-bottom-color: #004500;
+            border-bottom-width: 0.5vh;
+        }
+        .mainpveday3photos{
+            grid-area: mainpveday3;
+            border-bottom-style: solid;
+            border-bottom-color: #004500;
+            border-bottom-width: 0.5vh;
+        }
+        .mainpveelse{
+            grid-area: mainpveelse;
+        }
     }
 }
 /*I made the border my self using minecraft resources as refrence. Im just saveing the code here.
