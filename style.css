@@ -6,6 +6,12 @@ body{
         display: none;
     }
 }
+#backgroundimmage{
+    z-index: 1;
+    min-height: 80vh;
+    width: 100%;
+    position: fixed;
+}
 #backgroundvideo{
     z-index: 1;
     min-height: 80vh;
@@ -725,6 +731,7 @@ main{
                         width: 7vw;
                     }
                 }
+            }
         }
         .mainpveheader{
             grid-area: mainpveheader;
@@ -875,7 +882,7 @@ footer{
         height: 2vw;
         width: 100%;
         background-color: #d0f0c0;
-}
+    }
     .timebar::-webkit-slider-thumb{
         -webkit-appearance: none;
         appearance: none;
