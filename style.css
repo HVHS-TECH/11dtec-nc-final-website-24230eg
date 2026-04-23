@@ -742,6 +742,27 @@ main{
             border-bottom-style: solid;
             border-bottom-color: #004500;
             border-bottom-width: 0.5vh;
+            .photos{
+                width: 23.5vw;
+                border-style: solid;
+                border-color: #004500;
+                border-width: .25vw;
+                margin: 0.5vw;
+                background-color: #004500;
+                display: grid;
+                align-content: space-evenly;
+                justify-content: center;
+                div{
+                    margin:0%;
+                    padding: 0%;
+                    img{
+                        margin: 0%;
+                        border: 0%;
+                        padding: 0%;
+                        width: 7vw;
+                    }
+                }
+            }
         }
         .mainpveday2{
             grid-area: mainpveday2;
