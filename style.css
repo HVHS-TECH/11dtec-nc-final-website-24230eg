@@ -750,14 +750,14 @@ main{
             border-bottom-style: solid;
             border-bottom-color: #004500;
             border-bottom-width: 0.5vh;
-            }
+            
         }
         .mainpveday2photos{
             grid-area: mainpveday2photos;
             border-bottom-style: solid;
             border-bottom-color: #004500;
             border-bottom-width: 0.5vh;
-            }
+            
         }
         .mainpveday2{
             grid-area: mainpveday2;
@@ -772,7 +772,7 @@ main{
             border-bottom-width: 0.5vh;
         }
         .mainpveday3photos{
-            grid-area: mainpveday3;
+            grid-area: mainpveday3photos;
             border-bottom-style: solid;
             border-bottom-color: #004500;
             border-bottom-width: 0.5vh;
